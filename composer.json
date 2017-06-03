@@ -1,5 +1,5 @@
 {
-    "name": "vanushwashere/laravel-api-boilerplate",
+    "name": "vanushwashere/laravel-api-boilerplate-starter",
     "description": "A version of francescomalatesta/laravel-api-boilerplate-jwt but without jwt",
     "keywords": ["laravel", "api", "boilerplate"],
     "license": "MIT",
