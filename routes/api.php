@@ -7,7 +7,7 @@ $api = app(Router::class);
 
 $api->version('v1', function (Router $api) {
 
-    $api->group(function(Router $api) {
+    $api->group([],function(Router $api) {
         $api->get('protected', function() {
             return response()->json([
                 'message' => 'Access to protected resources granted! You are seeing this text as you provided the token correctly.'
